@@ -1,8 +1,6 @@
-# [TMLR 2026] OnlineMMSI
+# [TMLR 2026] Towards Online Multi-Modal Social Interaction Understanding
 
-## Online-MMSI-VLM
-Towards Online Multi-Modal Social Interaction Understanding：
-
+## Introduction
 ![Online-MMSI-VLM](onlinemmsi-l.png)
 
 We introduce Online-MMSI where the model must perform MMSI using historical information. To address the challenge, we propose Online-MMSI-VLM, a VLM-based framework that integrates multi-party conversation forecasting and socially-aware visual prompting.
