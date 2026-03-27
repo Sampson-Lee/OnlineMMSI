@@ -1,10 +1,5 @@
 import os
 import torch
-from transformers import Qwen2VLForConditionalGeneration, Qwen2VLProcessor
-from transformers import AutoModelForCausalLM, AutoModelForVision2Seq, AutoTokenizer, AutoProcessor
-from transformers import Qwen2_5_VLForConditionalGeneration, Qwen2_5_VLProcessor
-from datasets import load_dataset
-from qwen_vl_utils import process_vision_info
 
 from transformers import BitsAndBytesConfig
 from peft import LoraConfig, get_peft_model, PeftModel
